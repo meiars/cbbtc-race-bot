@@ -34,7 +34,7 @@ PARAMS = {
     "dip_span": 15,        # minutes over which the entry drop is measured
     "z_req": -1.5,         # also require the z-score at or below this
     "z_window": 60,        # rolling window for the z-score
-    "size_frac": 0.5,      # share of equity spent per entry
+    "size_frac": 0.35,      # share of equity spent per entry
     "hold_bars": 25,       # exit after this many bars in the trade
     "take_bps": 50,        # exit when the trade is up this much
     "stop_bps": 40,        # exit when the trade is down this much
